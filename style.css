@@ -17,7 +17,7 @@ img{
 .header-section{
   background-color: #FFF8F3;
   height: 100vh;
-  background-image: url(/images/header_bg.png);
+  background-image: url(../images/header_bg.png);
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: bottom;
@@ -26,7 +26,7 @@ img{
 }
 
 .bg{
-  background-image: url(/images/developer.png);
+  background-image: url(../images/developer.png);
   background-repeat: no-repeat;
   background-size: 80px;
   background-position-x: 20px;
