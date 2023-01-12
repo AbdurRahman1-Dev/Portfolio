@@ -380,3 +380,45 @@ input[type="submit"]  {
     height: 50px;
     line-height: 50%;
 }
+
+
+/* Responsive */
+
+
+@media screen and (max-width: 576px) {
+  .header-section {
+    height: 80vh;
+    padding: 0px;
+  }
+  .bg{
+    background-image: none;
+  }
+  .container{
+    width: 95%;
+  }
+  input , textarea {
+    width: 90%;
+  }
+  .logo p {
+    font-size: 20px;
+  }
+  .menu ul li a {
+    font-size: 16px 
+  }
+  .header-img{
+    display: none;
+  }
+  .header-text {
+    width: 100%;
+    padding-top: 120px;
+  }
+  .about {
+    padding: 100px 20px;
+  }
+  .about-info, .technologies, .resume, .contact {
+    flex-wrap: wrap;
+  }
+  .info {
+    padding: 10px 0px;
+  }
+}
